@@ -40,14 +40,14 @@ Además, estoy trabajando en un canal de YouTube llamado **Código Causa**, dond
 
 ### 📊 Estadísticas
 
-![Deivy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeivySc&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DeivySc&layout=compact&theme=radical)
+![Deivy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=DeivySc&show_icons=true&theme=transparent)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DeivySc&layout=compact&theme=transparent)
 
 ---
 
 ### 🌍 Encuéntrame en:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/DeivySc)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UCxxxxxx)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deivy-jampool-sanchez-coronado-23abb1286/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@CódigoCausa)
 
 ---
 
