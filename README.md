@@ -1,4 +1,4 @@
-# 👋 ¡Hola! Soy Deivy Salazar
+# 👋 ¡Hola! Soy Deivy Sánchez
 
 ### 🌐 Full Stack Developer | 🎨 Diseñador Web | 🇵🇪 Apasionado por la tecnología y el código
 
