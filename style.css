@@ -1,0 +1,131 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000020; /* Dark blue/purple background */
+    font-family: 'Press Start 2P', 'Courier New', monospace; /* Pixelated font with fallback */
+    color: #00FF00; /* Bright green text */
+    padding: 20px;
+    /* Optional: Subtle scan lines effect */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3) 50%, transparent 50%);
+    background-size: 100% 4px; */
+}
+
+header {
+    background-color: #1A1A3A; /* Slightly lighter dark blue for header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #FF00FF; /* Magenta border */
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: 'Press Start 2P', 'Courier New', monospace; /* Ensure pixel font for title */
+    color: #FFFF00; /* Bright yellow for title */
+    font-size: 2.5em;
+    text-shadow: 3px 3px #FF00FF; /* Magenta shadow for 3D effect */
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block; /* Align items in a row */
+}
+
+nav ul li {
+    display: inline-block; /* Align items in a row */
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #303050; /* Darker element background */
+    color: #00FFFF; /* Cyan text for links */
+    text-decoration: none;
+    border: 2px solid #00FFFF; /* Cyan border */
+    box-shadow: 3px 3px #000000; /* Simple shadow for depth */
+    transition: background-color 0.2s, color 0.2s, transform 0.1s;
+    position: relative; /* For hover effect */
+}
+
+nav ul li a:hover,
+nav ul li a:focus { /* Added focus for accessibility */
+    background-color: #00FFFF; /* Cyan background on hover */
+    color: #000020; /* Dark text on hover */
+    outline: none; /* Remove default focus outline, using border instead */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Optional: "Selector" sprite effect - using a pseudo-element */
+nav ul li a:hover::before {
+    content: "> "; /* Simple arrow selector */
+    position: absolute;
+    left: 5px;
+    color: #FF00FF; /* Magenta selector */
+}
+
+main section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(10, 10, 30, 0.8); /* Slightly transparent dark background for sections */
+    border: 3px solid #FFFF00; /* Yellow border for sections */
+    box-shadow: 5px 5px #000000;
+}
+
+main section h2 {
+    font-family: 'Press Start 2P', 'Courier New', monospace;
+    color: #FF00FF; /* Magenta for section titles */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px #00FFFF; /* Cyan shadow */
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Placeholder Button Styling */
+button,
+input[type="submit"], /* Style submit buttons as well */
+input[type="button"] {
+    font-family: 'Press Start 2P', 'Courier New', monospace;
+    background-color: #FFFF00; /* Yellow background */
+    color: #000020; /* Dark blue text */
+    border: 3px solid #000020; /* Dark blue border */
+    padding: 10px 15px;
+    text-transform: uppercase;
+    box-shadow: 3px 3px #000000;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, transform 0.1s;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #FF00FF; /* Magenta background on hover */
+    color: #FFFFFF; /* White text on hover */
+    transform: translateY(-2px);
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px #000000;
+}
+
+/* Import Press Start 2P font from Google Fonts */
+/* This should ideally be in the <head> of HTML for faster loading,
+   but placing it here for CSS-only changes. */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
